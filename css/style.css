@@ -1,0 +1,468 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 1.7em;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 10px 0px;
+	background: url("../images/banner.png") center top no-repeat;
+	background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+	font-size: 16px;
+	color: #353535;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 25px;
+}
+.banner{
+	width: 100%;
+	padding: 220px 0px;
+	text-align: center;
+}
+.banner h1{
+	font-size: 56px;
+	line-height: 1.2em;
+	font-weight: 400;
+	letter-spacing: 15px;
+	color: #353535;
+	margin: 0px 0px 20px;
+}
+.banner h1 span{
+	color: #a1a9b0;
+}
+.banner h4{
+	font-size: 14px;
+	line-height: 1.7em;
+	color: #a1a9b0;
+	font-weight: 500;
+	letter-spacing: 3px;
+}
+.banner .action-button{
+	width: 100%;
+}
+.banner .action-button .btn-primary{
+	padding: 12px 35px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	border-radius: 10px;
+	margin: 50px 0px 0px;
+}
+.banner .action-button .btn-primary:hover{
+	background: transparent;
+	color: #3dc9b3;
+}
+/*title global css start*/
+.title{
+	text-align: center;
+}
+.title h2{
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	color: #353535;
+	margin: 0px 0px 15px;
+}
+.title .arrow{
+	margin: 0px 40px;
+}
+/*title global css end*/
+.port{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f3f5f8;
+}
+.port p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 500;
+	color: #a1a9b0;
+	text-align: center;
+	margin: 30px 0px 0px;
+}
+.skill{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-skill{
+	width: 100%;
+	text-align: center;
+	margin: 50px 0px 0px;
+}
+.inner-skill h4{
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #353535;
+	margin: 25px 0px 10px;
+}
+.inner-skill p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 500;
+	color: #a1a9b0;
+	margin: 20px 0px 0px;
+}
+.design{
+	width: 100%;
+	padding: 80px 0px;
+}
+.design .title{
+	margin: 100px 0px 0px;
+}
+.design .title .arrow{
+	margin: 0px 15px;
+}
+.design .title h2{
+	font-size: 20px;
+}
+.design .title p .lf-img{
+	width: 90px;
+    height: auto;
+}
+.design .title p .ri-img{
+	width: 90px;
+    height: auto;
+}
+.design p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 500;
+	color: #a1a9b0;
+}
+.counter{
+	width: 100%;
+	padding: 50px 0px;
+	background: url("../images/layer.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.counter h1{
+	font-size: 38px;
+	font-weight: 500;
+	line-height: 1.3em;
+	letter-spacing: 10px;
+	color: #fff;
+	margin: 0px 0px 10px;
+}
+.counter h4{
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 1.7em;
+	letter-spacing: 5px;
+	color: #fff;
+	margin: 0px 0px 40px;
+}
+.counter h4 i{
+	font-weight: 600;
+}
+.counter p{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 5px;
+	background: #3dc9b3;
+	color: #fff;
+	border-radius: 100%;
+	margin: 0px 0px 0px 540px;
+}
+.portfolio{
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.portfolio h4{
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #353535;
+	margin: 25px 0px 10px;
+}
+.portfolio p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 500;
+	color: #a1a9b0;
+	margin: 20px 0px 0px;
+}
+.portfolio .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 50px;
+}
+.passion{
+	width: 100%;
+	padding: 30px 0px;
+	background: #242830;
+	text-align: center;
+}
+.passion .action-button .btn-primary{
+	padding: 12px 35px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	border-radius: 10px;
+}
+.passion .action-button .btn-primary:hover{
+	background: transparent;
+	color: #fff;
+}
+.team {
+	width: 100%;
+	padding: 80px 0px;
+	text-align: center;
+}
+.inner-team{
+	margin: 50px 0px 0px;
+}
+.inner-team h4{
+	font-size: 22px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #353535;
+	margin: 25px 0px 10px;
+}
+.inner-team p{
+	font-size: 14px;
+	line-height: 1.7em;
+	font-weight: 500;
+	color: #a1a9b0;
+	margin: 20px 0px 20px;
+}
+.inner-team .social-media{
+	width: 100%;
+	display: block;
+}
+.inner-team .social-media li{
+	list-style: none;
+    display: inline-block;
+    margin: 0px 25px 0px 0px;
+}
+.inner-team .social-media li a{
+	display: block;
+	text-decoration: none;
+}
+.inner-team .social-media li a .fa-dribbble{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-size: 14px;
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.inner-team .social-media li a .fa-dribbble:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #3dc9b3;
+}
+.inner-team .social-media li a .fa-twitter{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-size: 14px;
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.inner-team .social-media li a .fa-twitter:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #3dc9b3;
+}
+.inner-team .social-media li a .fa-envelope{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-size: 14px;
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.inner-team .social-media li a .fa-envelope:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #3dc9b3;
+}
+.sub{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../images/sub.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.sub h2{
+	font-size: 32px;
+	font-weight: 500;
+	line-height: 1.3em;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 15px 0px 30px;
+}
+.sub .action-button{
+	margin: 30px 0px 0px;
+}
+.sub .action-button .btn-info{
+	padding: 30px 150px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	background: transparent;
+	border: 1px solid #3dc9b3;
+	border-radius: 10px;
+}
+
+.sub .action-button .btn-primary{
+	padding: 18px 20px;
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #fff;
+	background: #3dc9b3;
+	border: 1px solid #3dc9b3;
+	border-radius: 10px;
+	margin: 0px 0px 0px 5px;
+}
+.sub .action-button .btn-primary:hover{
+	background: transparent;
+	color: #fff;
+}
+.contact{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f3f5f8;
+}
+.inner-contact{
+	width: 100%;
+	padding: 30px 0px;
+	text-align: center;
+	background: #fff;
+	margin: 50px 0px 110px;
+}
+.inner-contact h4{
+	font-size: 22px;
+	font-weight: 400;
+	color: #3dc9b3;
+	margin: 20px 0px;
+}
+.inner-contact p{
+	font-size: 14px;
+	color: #a1a9b0;
+}
+.contact .social-media{
+	width: 100%;
+	display: block;
+	text-align: center;
+}
+.contact .social-media li{
+	list-style: none;
+    display: inline-block;
+    margin: 0px 25px 0px 0px;
+}
+.contact .social-media li a{
+	display: block;
+	text-decoration: none;
+}
+.contact .social-media li a .fa-dribbble{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-scontact
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.contact .social-media li a .fa-dribbble:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #3dc9b3;
+}
+.contact .social-media li a .fa-twitter{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-size: 14px;
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.contact .social-media li a .fa-twitter:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #3dc9b3;
+}
+.contact .social-media li a .fa-envelope{
+	 display: block;
+	 width: 30px;
+	 height: 30px;
+	 line-height:30px;
+	 background: #242830;
+	 color: #fff;
+	 border: 1px solid #242830;
+	 font-size: 14px;
+	 text-align: center;
+	 border-radius: 100%;
+	 transition: 1s;
+
+}
+.contact .social-media li a .fa-envelope:hover{
+	background: #3dc9b3;
+	color: #fff;
+	border: 1px solid #contact
+}
+.footer{
+	width: 100%;
+	padding: 15px 0px;
+	background:#242830;
+}
+.footer p{
+	font-size: 14px;
+	color: #a1a9b0;
+	margin: 10px 0px 0px;
+}
+.footer .copy{
+	text-align: right;
+}
